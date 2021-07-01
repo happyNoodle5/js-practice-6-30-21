@@ -1,0 +1,12 @@
+@import "variables";
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-bottom: 0;
+}
+
+// PAGES
+h1 {
+    color: $primaryBrandColor;
+}
