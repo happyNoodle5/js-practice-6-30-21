@@ -1,3 +1,5 @@
+// compile command:
+// sass --watch sass/styles.scss:styles.css
 @import "variables";
 
 * {
@@ -9,4 +11,15 @@
 // PAGES
 h1 {
     color: $primaryBrandColor;
+}
+
+.container {
+    margin: 5%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    // grid-gap: 5%;
+}
+
+.col {
+    justify-self: center;
 }
